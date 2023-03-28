@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 import time
 # Q1
-m,b=3,2
+m,b=random.randint(-10,10),random.randint(-10,10)
 def get_random_point(num): # 亂數產生num筆資料，一半標1，一半標-1
   pos_x,pos_y = [],[]
   neg_x,neg_y = [],[]
